@@ -13,8 +13,12 @@ A minimal Model Context Protocol (MCP) tool server using Playwright with only es
 
 ## Usage
 
-You can run this locally or use it with `npx` via GitHub after publishing.
+To use this tool via `npx` directly from GitHub, run the following command in your terminal:
 
 ```bash
 npx github:AwesomeC-LC/playwright-lite-mcp
 ```
+
+When you run this command for the first time, it will automatically download the necessary Chromium browser binaries using Playwright's `postinstall` script. This ensures that the tool has the required browser to perform automation tasks.
+
+**Note:** Ensure you have Node.js and npm installed on your system.

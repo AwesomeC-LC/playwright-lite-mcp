@@ -4,7 +4,8 @@
   "description": "Lightweight Playwright MCP server",
   "main": "mcp-server.js",
   "scripts": {
-    "start": "node mcp-server.js"
+    "start": "node mcp-server.js",
+    "postinstall": "npx playwright install --with-deps chromium"
   },
   "bin": {
     "playwright-lite-mcp": "./bin.js"
