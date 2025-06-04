@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: playwright-lite-mcp
-    env: node
-    buildCommand: "npm install"
-    startCommand: "node server.js"
-    plan: free
-    autoDeploy: true
