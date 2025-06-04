@@ -1,0 +1,17 @@
+{
+  "name": "playwright-lite-mcp",
+  "version": "1.0.0",
+  "description": "Lightweight Playwright MCP server",
+  "main": "mcp-server.js",
+  "scripts": {
+    "start": "node mcp-server.js"
+  },
+  "bin": {
+    "playwright-lite-mcp": "./bin.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "playwright": "^1.39.0"
+  }
+}
